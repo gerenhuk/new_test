@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кавовий магазин - Про нас</title>
+    <style>
+        /* Загальні стилі */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        section {
+            padding: 60px 0;
+        }
+        
+        h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: #5c2020;
+            position: relative;
+        }
+        
+        h2:after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 3px;
+            background: #5c2020;
+            margin: 20px auto;
+        }
+        
+        /* Стилі для секції "Про нас" */
+        .about-section {
+            background-color: #f9f9f9;
+        }
+        
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 40px;
+        }
+        
+        .about-text {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .about-image {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+        }
+        
+        .about-image img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .about-features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 40px;
+            gap: 20px;
+        }
+        
+        .feature {
+            flex: 1;
+            min-width: 250px;
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .feature:hover {
+            transform: translateY(-10px);
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            color: #5c2020;
+            margin-bottom: 15px;
+        }
+        
+        .feature h3 {
+            margin: 15px 0;
+            color: #5c2020;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Секція "Про нас" -->
+    <section class="about-section">
+        <div class="container">
+            <h2>Про Нашу Кав'ярню</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Ми - сімейна кав'ярня, яка працює на ринку вже понад 10 років. Наша місія - дарувати вам незабутні кавові моменти щодня.</p>
+                    
+                    <p>Усі наші зерна вирощуються на екологічно чистих плантаціях Бразилії, Колумбії та Ефіопії. Ми ретельно обираємо постачальників і слідкуємо за якістю на кожному етапі - від збору урожаю до чашки у вашій руці.</p>
+                    
+                    <p>Наші баристи - справжні професіонали, які пройшли навчання у кращих кавових школах Європи. Вони знають, як розкрити унікальний смак кожної кавової зернинки.</p>
+                </div>
+                
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1567880905822-56f8e06fe630?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Наша кав'ярня">
+                </div>
+            </div>
+            
+            <div class="about-features">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <h3>Якісна кава</h3>
+                    <p>Використовуємо тільки 100% арабіку з екологічних плантацій</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Професійні баристи</h3>
+                    <p>Наші фахівці пройшли навчання у кращих кавових школах</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>З любов'ю</h3>
+                    <p>Готуємо кожну чашку з турботою та увагою до деталей</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

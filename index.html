@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav nav__container">
+            <ul class="menu">
+                <li class="menu__list"><a href="#catalog" class="menu__link">Каталог</a></li>
+                <li class="menu__list"><a href="action" class="menu__link">Акція</a></li>
+                <li class="menu__list"><a href="about-us" class="menu__link">Про нас</a></li>
+            </ul>
+            <img src="img/logo.png" alt="" class="logo">
+            <div class="nav__buttons">
+                <button class="nav__btn login__btn">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                </button>
+                <button class="nav__btn shopping__btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="notification">0</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <div class="cart-message">Чашка в корзині!</div>
+    <main class="main">
+        <div class="slider">
+            <img src="https://images.unsplash.com/photo-1590440823599-4b6fd9d71826?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="active" alt="Зображення 1">
+            <img src="https://images.unsplash.com/photo-1685384338018-1774719d5b69?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Зображення 2">
+            <img src="https://images.unsplash.com/photo-1506372023823-741c83b836fe?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Зображення 3">
+            <img src="https://images.unsplash.com/photo-1627856998179-d3fe9dfdf82f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Зображення 4">
+        </div>
+        <section class="catalog catalog__container" id="catalog">
+            <h1 class="title">Каталог</h1>
+            <div class="product__catalog">
+                <article class="product__card">
+                    <img src="img/cup-1.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <p class="price">$ 10.99</p>
+                        <div class="busket"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </article>
+                <article class="product__card">
+                    <img src="img/cup-2.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <p class="price">$ 10.99</p>
+                        <div class="busket"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </article>
+                <article class="product__card">
+                    <img src="img/cup-3.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <p class="price">$ 10.99</p>
+                        <div class="busket"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </article>
+                <article class="product__card">
+                    <img src="img/cup-4.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <p class="price">$ 10.99</p>
+                        <div class="busket"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="coffee-section" id="action">
+        <h2 class="coffee-title">Наші кавові чашки</h2>
+        
+        <div class="coffee-container">
+            <!-- Додаємо кілька чашок -->
+            <img src="https://images.unsplash.com/photo-1722096944770-4f518f07b947?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Чашка 1" class="coffee-cup active">
+            <img src="https://images.unsplash.com/photo-1517256064527-09c73fc73e38?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Чашка 2" class="coffee-cup">
+            <img src="https://images.unsplash.com/photo-1506372023823-741c83b836fe?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Чашка 3" class="coffee-cup">
+            <img src="https://images.unsplash.com/photo-1582550906297-e6a12142a60e?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D " alt="Чашка 4" class="coffee-cup">
+            <img src="https://images.unsplash.com/photo-1748190994065-0f27b8967390?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Чашка 5" class="coffee-cup">
+        </div>
+        
+        <p class="coffee-text">Насолоджуйтесь свіжою кавою</p>
+        <div class="timer">01:00</div>
+        <p class="timer-description">До наступної чашки</p>
+    </section>
+    <!-- Секція "Про нас" -->
+    <section class="about-section" id="about-us">
+        <div class="about__container">
+            <h2>Про Нашу Кав'ярню</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Ми - сімейна кав'ярня, яка працює на ринку вже понад 10 років. Наша місія - дарувати вам незабутні кавові моменти щодня.</p>
+                    
+                    <p>Усі наші зерна вирощуються на екологічно чистих плантаціях Бразилії, Колумбії та Ефіопії. Ми ретельно обираємо постачальників і слідкуємо за якістю на кожному етапі - від збору урожаю до чашки у вашій руці.</p>
+                    
+                    <p>Наші баристи - справжні професіонали, які пройшли навчання у кращих кавових школах Європи. Вони знають, як розкрити унікальний смак кожної кавової зернинки.</p>
+                </div>
+                
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1567880905822-56f8e06fe630?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Наша кав'ярня">
+                </div>
+            </div>
+            
+            <div class="about-features">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <h3>Якісна кава</h3>
+                    <p>Використовуємо тільки 100% арабіку з екологічних плантацій</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Професійні баристи</h3>
+                    <p>Наші фахівці пройшли навчання у кращих кавових школах</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>З любов'ю</h3>
+                    <p>Готуємо кожну чашку з турботою та увагою до деталей</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
